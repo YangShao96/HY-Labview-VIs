@@ -1,4 +1,6 @@
-git push -u origin master
+cd "xx xxxxx"
+git init
 git add -A
 git commit -m "xxxxxx"
+git push -u origin master
 git status
