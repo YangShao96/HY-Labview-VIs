@@ -1,6 +1,17 @@
-cd "xx xxxxx"
+cd /G 或者 cd "xx xxxxx"/
+cd ..（空格+..，用来返回上级目录）
+
+设置Git：
+git config --global user.name“你的名字”
+git config --global user.email“youremail@domain.com”
+
+其他命令
 git init
-git add -A
-git commit -m "xxxxxx"
+git add -A ("A" stands for "all")
+git add（文件名）
+git commit -m "xxxxxx"（已提交的消息）
 git push -u origin master
 git status
+git remote add origin master（url）
+
+For more basic Git command list: check this - http://www.codebind.com/linux-tutorials/basic-git-commands-list/
